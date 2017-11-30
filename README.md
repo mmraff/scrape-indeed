@@ -1,8 +1,8 @@
 # scrape-indeed
-Command-line PHP script to collect job page links from indeed.com based on your search terms
+Command-line PHP script to collect job post data from Indeed.com based on your search terms
 
 ## Motivation
-Indeed.com divides search results into multiple pages, then it repeats certain results - _on every page_. It also includes sponsored results that are located outside my search area _on every page_. That wastes my job search time. I want a distillation of essential results.
+Indeed.com divides search results into multiple pages, then it repeats certain results - _on every page_. It also includes sponsored results that are located outside my search area _on every page_. That wastes my job search time. I want only essential results.
 
 ## A Demonstration of Web Scraping Across Multiple Pages
 When run through PHP at the command line, this script will collect and display the basic details of each job item turned up by a search submitted to www.indeed.com using the search terms included on the command line. For each result item, a URL to the job description page is provided. The script filters out results that are outside the Albuquerque, New Mexico area (but that can be adjusted by simple edits to the script - see the comments inside).
